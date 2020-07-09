@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardBody {
+  padding: 1.25rem;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  margin-bottom: .75rem;
+}
+
+.cardBodyDesc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnPrimary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btnPrimary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.btnActive {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btnActive:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}

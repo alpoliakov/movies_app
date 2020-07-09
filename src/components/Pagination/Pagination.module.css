@@ -1,0 +1,34 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.arrow {
+  font-size: 3rem;
+  transition: color .15s ease-in-out;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  color: #1e7e34;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 22rem;
+}
+
+@media (max-width: 539px) {
+  .pages {
+    flex-direction: column;
+  }
+
+  .pages > h5 {
+    margin-bottom: 15px;
+  }
+}
